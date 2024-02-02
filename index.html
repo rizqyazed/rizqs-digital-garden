@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title></title>
+</head>
+<body>
+    <div class="everything">
+        <p class="header">
+            <a href="https://rizqyazed.xyz">rizq's</a>
+            <p class="title">Digital Garden********</p>
+        </p>
+        <p>plants</p>
+        <table>
+            <tr class="item-title">
+                <td>
+                    <p class="text">***</p>
+                </td>
+            </tr>
+            <tr class="item-title">
+                <td>
+                    <p class="text">***</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script language="JavaScript" type="text/javascript">
+        (function titleScroller(text) {
+            document.title = text;
+            setTimeout(function() {
+                titleScroller(text.substr(1) + text.substr(0, 1));
+            }, 500);
+        }("rizq's digital garden! . planting some seeds . "));
+    </script>
+</body>
+</html>
