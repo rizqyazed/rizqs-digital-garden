@@ -43,6 +43,15 @@ table {
 
 .item-title {
     cursor: pointer;
+    border-bottom: 1px solid #000000;  
+}
+
+.placeholder-item-title {
+    border-bottom: 1px solid #000000;  
+}
+
+.item-content {
+    display: none;
     border-bottom: 1px solid #000000;
 }
 
